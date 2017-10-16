@@ -1,0 +1,92 @@
+.casa-caja{
+	height: 660px;
+	position: relative;
+}
+.pasto{
+	background-color: darkgreen;
+	height: 100px;
+	position: absolute;
+	width: 100%;
+	bottom: 0px;
+}
+.base{
+	background-color: darkred;
+	height: 300px;
+	width: 500px;
+	position: absolute;
+	bottom: 100px;
+	right: 200px;
+}
+.techo{
+	width: 500px;
+    height: 0px;
+    border-right: 50px solid transparent;
+    border-left: 50px solid transparent;
+    border-bottom: 100px solid black;
+    position: absolute;
+    right: 150px;
+    bottom: 400px;
+}
+.ventana1{
+	background-color: pink;
+	height: 120px;
+	width: 100px;
+	position: absolute;
+	top: 300px;
+	right: 250px;
+
+}
+.ventana2{
+	background-color: pink;
+	height: 120px;
+	width: 100px;
+	position: absolute;
+	top: 300px;
+	right: 550px;
+}
+.puerta{
+	background-color: grey;
+	height: 200px;
+	width: 130px;
+	position: absolute;
+	top: 360px;
+	right: 385px;
+
+}
+.chimenea{
+	background-color: yellow;
+	height: 60px;
+	width: 100px;
+	position: absolute;
+	bottom: 500px;
+	right: 250px;
+}
+.humo1{
+	background-color: darkgrey;
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	position: absolute;
+	top: 50px;
+	right: 270px;
+
+}
+.humo2{
+	background-color: grey;
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	position: absolute;
+	top: 35px;
+	right: 260px
+
+}
+.humo3{
+	background-color: lightgrey;
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	position: absolute;
+	top: 20px;
+	right: 250px
+}
